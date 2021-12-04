@@ -1,9 +1,16 @@
-# CryptoRight Blockchain Copyright System
+# The DJM App
 
-## Summary
-
-This application is a copyright management system built on the Ethereum blockchain.
+## David, Joe and Miguels Blockchain App
 
 ### Demo App
 
-Click [here](app1/index.html) to launch the CryptoRight application.
+1 - Put Forward a Proposal
+
+2 - Vote on Proposals
+
+3 - Participate in Tender Process
+
+4 - Finalise Contract
+
+
+### [Launch App](app1/index.html) 
