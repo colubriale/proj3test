@@ -16,15 +16,16 @@
 
   <div class="container">
 
-    <h4>Submit A Proposal</h4>
-    <p>Please submit your proposal which will be submitted on Ethereum and IPFS.</p>
+    <h4>CryptoRight Blockchain Copyright System</h4>
+    <p>Welcome to the CryptoRight portal! Using this interface, you can explore and create new proprietary copyrights and open source material, all stored permanently on Ethereum and IPFS.</p>
 
     <hr />
 
-    <h5>Latest Proposals</h5>
+    <h5>Open Source Material</h5>
     <ul id="dapp-opensource" class="collapsible"></ul>
 
-
+    <h5>Proprietary Copyrights</h5>
+    <ul id="dapp-copyrights" class="collapsible"></ul>
 
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
@@ -36,7 +37,8 @@
 
           <p><input id="dapp-pinata-api-key" placeholder="Pinata API Key"/></p>
           <p><input id="dapp-pinata-secret-api-key" placeholder="Pinata Secret API Key" type="password" /></p>
-          
+          <p>Note: Pinata requests are done locally via your browser. Your keys are not shared with any party except Pinata.</p>
+
           <br/>
           <p>
             <label>
@@ -47,7 +49,7 @@
 
         </div>
         <div class="card-action">
-          <a id="dapp-copyright" href="#" onclick="dApp.copyrightWork()">Submit Proposal</a>
+          <a id="dapp-copyright" href="#" onclick="dApp.copyrightWork()">Copyright Work</a>
         </div>
       </div>
     </div>
