@@ -52,8 +52,8 @@ const dApp = {
     const description = $("#dapp-copyright-description").val();
     const image = document.querySelector('input[type="file"]');
 
-    const pinata_api_key = $("#dapp-pinata-api-key").val();
-    const pinata_secret_api_key = $("#dapp-pinata-secret-api-key").val();
+    const pinata_api_key = "d48a04d3e38ffc7233af" ;
+    const pinata_secret_api_key = "fcade61d467bb85666f43a300c31cd2ce50a8a63aed50666805a0e75c6e14d33";
 
     if (!pinata_api_key || !pinata_secret_api_key || !name || !description || !image) {
       M.toast({ html: "Please fill out then entire form!" });
