@@ -16,15 +16,15 @@
 
   <div class="container">
 
-    <h4>CryptoRight Blockchain Copyright System</h4>
-    <p>Welcome to the CryptoRight portal! Using this interface, you can explore and create new proprietary copyrights and open source material, all stored permanently on Ethereum and IPFS.</p>
+    <h4>Submit a Proposal/Contract</h4>
+    <p></p>
 
     <hr />
 
-    <h5>Open Source Material</h5>
+    <h5>Image on Blockchain</h5>
     <ul id="dapp-opensource" class="collapsible"></ul>
 
-    <h5>Proprietary Copyrights</h5>
+    <h5>Blockchain Link</h5>
     <ul id="dapp-copyrights" class="collapsible"></ul>
 
     <div class="col s12 m6">
@@ -34,22 +34,22 @@
           <p><input id="dapp-copyright-description" placeholder="Description..."/></p>
 
           <p>Image: <input id="dapp-copyright-image" type="file" /></p>
-
+<!--
           <p><input id="dapp-pinata-api-key" placeholder="Pinata API Key"/></p>
           <p><input id="dapp-pinata-secret-api-key" placeholder="Pinata Secret API Key" type="password" /></p>
           <p>Note: Pinata requests are done locally via your browser. Your keys are not shared with any party except Pinata.</p>
-
+-->
           <br/>
           <p>
             <label>
               <input id="dapp-opensource-toggle" type="checkbox"/>
-              <span>Check to Open Source</span>
+              <span>Uncheck to load link to image only, or Check to Upload Image to Blockchain, </span>
             </label>
           </p>
 
         </div>
         <div class="card-action">
-          <a id="dapp-copyright" href="#" onclick="dApp.copyrightWork()">Copyright Work</a>
+          <a id="dapp-copyright" href="#" onclick="dApp.copyrightWork()">SUBMIT TO BLOCKCHAIN</a>
         </div>
       </div>
     </div>
