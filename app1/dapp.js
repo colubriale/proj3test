@@ -1,5 +1,5 @@
 // Change this address to match your deployed contract!
-const contract_address = "0xeD6e922a4fA3978A652d2BA7253Df055C2BF79C9";
+const contract_address = "0x085D15A0965303C669f22368cDaC48903E304199"; 
 
 const dApp = {
   ethEnabled: function() {
