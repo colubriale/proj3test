@@ -1,16 +1,17 @@
-# The DJM App
+# The DJM Blockchain Apps
 
-## David, Joe and Miguels Blockchain App
+## David, Joe and Miguel's Blockchain Apps
 
-### Demo App
+### Select an App
 
-1 - Put Forward a Proposal
+## [1 - Put Forward a Proposal](proposals/index.html) 
 
 2 - Vote on Proposals
 
 3 - Participate in Tender Process
 
+## [4 - Finalise Contract--](contracts/index.html)
 4 - Finalise Contract
 
 
-### [Launch App](app1/index.html) 
+
