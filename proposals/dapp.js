@@ -83,7 +83,7 @@ const dApp = {
       M.toast({ html: "Uploading JSON..." });
 
       const reference_json = JSON.stringify({
-        pinataContent: { name, description, image: image_uri },
+        pinataContent: { proposer name, description, image uri: image_uri },
         pinataOptions: {cidVersion: 1}
       });
 
