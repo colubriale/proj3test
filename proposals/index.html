@@ -28,7 +28,7 @@
     <ul id="dapp-copyrights" class="collapsible"></ul>
 
     <div class="col s12 m6">
-      <div class="card blue-grey lighten-1">
+      <div class="card blue-grey lighten-3">
         <div class="card-content white-text">
           <span class="card-title"><input id="dapp-copyright-name" placeholder="Name of Proposer..." /></span>
           <p><input id="dapp-copyright-description" placeholder="Type in your Proposal or load file..."/></p>
@@ -46,31 +46,7 @@
             </label>
           </p>
 -->
-          <span>Enter Password for Encryption</span>
-            <input class="f15pt" type="password" id="passcode" placeholder="password" />
-        
-        <div class="content voilet2">
-            <span>Put Or Type Text Here</span>
-            <textarea id="originalContent"></textarea>
         </div>
-        <div class="content voilet0">
-            <span>Encrypted Form</span>
-            <textarea id="encryptedContent" readonly></textarea>
-        </div>
-        <div class="content voilet0">
-            <span>Decrypted Form</span>
-            <textarea id="decryptedContent" readonly></textarea>
-        </div>
-        <button class="encrypt" onclick="webdevencrypt.setEncrypt('originalContent','encryptedContent','passcode')">Encrypt</button>
-        <button class="encrypt" onclick="webdevencrypt.setDecrypt('originalContent','decryptedContent','passcode')">Decrypt</button>
-          
-       </div>
-        
-        
-        
-            
-        
-        
         <div class="card-action">
           <a id="dapp-copyright" href="#" onclick="dApp.copyrightWork()">SUBMIT PROPOSAL TO BLOCKCHAIN</a>
         </div>
@@ -93,6 +69,6 @@
   </script>
   <!-- dApp JavaScript -->
   <script src="dapp.js"></script>
-
+  <script src="encrypt.js"></script>
 </body>
 </html>
