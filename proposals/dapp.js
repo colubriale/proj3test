@@ -1,7 +1,7 @@
 // Change this address to match your deployed contract!
 const contract_address = "0x085D15A0965303C669f22368cDaC48903E304199"; 
 
-var webdevencrypt = {
+const dApp = {
   setEncrypt: function(source,destination,passcode) {
       document.getElementById(destination).innerText = this.encryptCodes(document.getElementById(source).value,document.getElementById(passcode).value);
   },
@@ -30,9 +30,9 @@ var webdevencrypt = {
       }
       return str ;
   }
-}
 
-const dApp = {
+
+
   ethEnabled: function() {
     // If the browser has MetaMask installed
     if (window.ethereum) {
