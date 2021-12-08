@@ -12,6 +12,8 @@
 
 ### [4 - Finalise Contract](contracts/index.html)
 
+### [5 - Utilities Contract](encrypt/index.html)
+
 
 
 
